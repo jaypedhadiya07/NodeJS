@@ -1,0 +1,12 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "Demo.js",
+  "scripts": {
+    "start": "node Demo.js"
+  }
+}
