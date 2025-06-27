@@ -1,0 +1,12 @@
+{
+  "name": "init-execution",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "Test.js",
+  "scripts": {
+    "start": "node Test.js"
+  }
+}
