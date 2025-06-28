@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "first_name": "Immanuel",
+    "last_name": "Gedney",
+    "email": "igedney6@cdbaby.com",
+    "gender": "Male",
+    "job_Title": "Mechanical Systems Engineer"
+  },
+  {
+    "id": 2,
+    "first_name": "Julie",
+    "last_name": "Hughland",
+    "email": "jhughland1@pcworld.com",
+    "gender": "Male",
+    "job_Title": "Senior Editor"
+  },
+  {
+    "id": 3,
+    "first_name": "Brnaby",
+    "last_name": "Broader",
+    "email": "bbroader2@typepad.com",
+    "gender": "Male",
+    "job_Title": "Physical Therapy Assistant"
+  },
+  {
+    "id": 4,
+    "first_name": "Selie",
+    "last_name": "Reeson",
+    "email": "sreeson3@bloglines.com",
+    "gender": "Female",
+    "job_Title": "Information Systems Manager"
+  },
+  {
+    "id": 5,
+    "first_name": "Alvy",
+    "last_name": "Isakson",
+    "email": "aisakson4@theguardian.com",
+    "gender": "Male",
+    "job_Title": "Developer III"
+  },
+  {
+    "id": 6,
+    "first_name": "Northrop",
+    "last_name": "Farnsworth",
+    "email": "nfarnsworth5@microsoft.com",
+    "gender": "Male",
+    "job_Title": "Environmental Tech"
+  },
+  {
+    "id": 7,
+    "first_name": "Immanuel",
+    "last_name": "Gedney",
+    "email": "igedney6@cdbaby.com",
+    "gender": "Male",
+    "job_Title": "Mechanical Systems Engineer"
+  },
+  {
+    "id": 8,
+    "first_name": "Bertie",
+    "last_name": "Male",
+    "email": "bmale7@godaddy.com",
+    "gender": "Female",
+    "job_Title": "Physical Therapy Assistant"
+  },
+  {
+    "id": 9,
+    "first_name": "Calida",
+    "last_name": "Minors",
+    "email": "cminors8@globo.com",
+    "gender": "Female",
+    "job_Title": "Design Engineer"
+  },
+  {
+    "id": 10,
+    "first_name": "Georgianne",
+    "last_name": "Fawkes",
+    "email": "gfawkes9@toplist.cz",
+    "gender": "Female",
+    "job_Title": "Recruiter"
+  },
+  {
+    "first_name": "jayy",
+    "last_name": "pedhadiya",
+    "email": "jay@gmail.com",
+    "gender": "male",
+    "job_Title": "Software dev",
+    "id": "11"
+  },
+  {
+    "first_name": "raj",
+    "last_name": "limbasiya",
+    "email": "raj@gmail.com",
+    "gender": "male",
+    "job_Title": "Software dev",
+    "id": 12
+  }
+]
