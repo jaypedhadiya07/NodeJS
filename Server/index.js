@@ -7,7 +7,9 @@ const myServer = http.createServer((req, res) => {
 
   let date = new Date();
 
-  const log = `${date.toLocaleTimeString()} New Request received ${req.url}\n`;
+  const log = `${date.toLocaleTimeString()} ${
+    req.method
+  } New Request received ${req.url}\n`;
 
   const Myurl = url.parse(req.url, true);
   console.log(Myurl);
@@ -23,6 +25,13 @@ const myServer = http.createServer((req, res) => {
       case "/search":
         const search = Myurl.query.search_query;
         res.end(`Here are your Results for ${search}`);
+        break;
+      case "/signup":
+        if (req.method === "GET") res.end("This is a signup Form");
+        else if (req.method === "POST") {
+          // DB query
+          res.end("Success");
+        }
         break;
       default:
         res.end("404 Not found");
