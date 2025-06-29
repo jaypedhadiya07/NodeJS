@@ -45,6 +45,13 @@ app.get("/users", (req, res) => {
 
 // GET: List all users as JSON
 app.get("/api/users", (req, res) => {
+  // Log incoming request headers (useful for debugging or verifying custom headers)
+  console.log(req.headers); // e.g., you might send: purpose: 'Express'
+
+  // Set a custom response header. Note: custom headers should start with 'X-' by convention.
+  res.setHeader("X-Myname", "jay");
+
+  // Respond with the list of users in JSON format
   return res.json(users);
 });
 
