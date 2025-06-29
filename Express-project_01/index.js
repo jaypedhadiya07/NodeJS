@@ -9,6 +9,25 @@ const port = 8000;
 // Middleware - plugin to parse URL-encoded form data
 app.use(express.urlencoded({ extended: false }));
 
+// Middleware 1: Adds a custom property 'username' to the request object
+app.use((req, res, next) => {
+  console.log("Middleware 1");
+  req.username = "jay"; // Set custom data on the request
+  const date = new Date()
+  fs.appendFile("log.txt",`\nTIME:${date.toLocaleTimeString()} Path:${req.path} IPADDRESS:${req.ip} METHOD:${req.method}`,(error, data) => {
+      next(); // Pass control to the next middleware
+  })
+});
+
+// Middleware 2: Accesses the custom 'username' set in the previous middleware
+app.use((req, res, next) => {
+  console.log("Middleware 2");
+  console.log("My name is: " + req.username); // Use the custom data
+  next(); // Pass control to the next middleware or route
+});
+
+// Note: The 'req.username' property can now be accessed in any routes that follow
+
 // ------------------------------------------
 // Basic HTML Route: Display user first names
 // ------------------------------------------
