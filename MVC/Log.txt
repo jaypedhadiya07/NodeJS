@@ -1,0 +1,12 @@
+2:04:06 pm - GET - /
+2:04:14 pm - GET - /api/users
+2:04:22 pm - POST - /users
+2:04:35 pm - GET - /
+2:04:41 pm - GET - /api/users/68624c0e3758ad46e6f431e8
+2:04:47 pm - PATCH - /api/users/686248dbd2fd3d7bf9245410
+2:04:52 pm - GET - /
+2:05:00 pm - PATCH - /api/users/68624c0e3758ad46e6f431e8
+2:05:03 pm - GET - /
+2:05:10 pm - DELETE - /api/users/68624c0e3758ad46e6f431e8
+2:05:13 pm - GET - /
+2:05:19 pm - GET - /api/users
