@@ -1,0 +1,8 @@
+Schema - Define the structure
+    Schema - Model - Create a model based on the schema
+Using the model:
+    Create - Create a new document
+    Read - Find documents
+    Update - Update existing documents
+    Delete - Remove documents 
+operations    
